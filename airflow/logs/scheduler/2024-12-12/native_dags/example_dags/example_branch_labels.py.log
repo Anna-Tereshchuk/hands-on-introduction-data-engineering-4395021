@@ -1150,3 +1150,647 @@
 [2024-12-12T17:46:48.260+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:46:48.260+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-12T17:46:48.275+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:46:48.275+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
 [2024-12-12T17:46:48.289+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2024-12-12T17:47:34.610+0000] {processor.py:157} INFO - Started process (PID=96022) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:47:34.610+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:47:34.611+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:34.611+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:47:34.616+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:47:34.629+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:34.629+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:47:34.643+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:34.643+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:47:34.656+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T17:48:20.562+0000] {processor.py:157} INFO - Started process (PID=96338) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:48:20.563+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:48:20.564+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:20.563+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:48:20.569+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:48:20.582+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:20.582+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:48:20.596+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:20.596+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:48:20.609+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T17:49:14.648+0000] {processor.py:157} INFO - Started process (PID=96727) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:49:14.649+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:49:14.650+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:14.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:49:14.655+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:49:14.667+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:14.667+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:49:14.682+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:14.682+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:49:14.696+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T17:50:03.006+0000] {processor.py:157} INFO - Started process (PID=97058) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:03.007+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:50:03.008+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:03.007+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:03.013+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:03.025+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:03.025+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:50:03.045+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:03.045+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:50:03.064+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.060 seconds
+[2024-12-12T17:50:54.686+0000] {processor.py:157} INFO - Started process (PID=97422) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:54.686+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:50:54.687+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:54.687+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:54.692+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:50:54.705+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:54.705+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:50:54.718+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:54.718+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:50:54.732+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T17:51:56.661+0000] {processor.py:157} INFO - Started process (PID=97846) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:51:56.662+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:51:56.662+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:56.662+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:51:56.668+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:51:56.680+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:56.680+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:51:56.694+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:56.694+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:51:56.709+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T17:52:42.611+0000] {processor.py:157} INFO - Started process (PID=98157) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:52:42.612+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:52:42.613+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:42.612+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:52:42.618+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:52:42.630+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:42.630+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:52:42.644+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:42.644+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:52:42.657+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T17:53:41.769+0000] {processor.py:157} INFO - Started process (PID=98557) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:53:41.770+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:53:41.771+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:41.770+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:53:41.776+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:53:41.788+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:41.788+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:53:41.802+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:41.802+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:53:41.816+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T17:54:28.988+0000] {processor.py:157} INFO - Started process (PID=98907) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:54:28.989+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:54:28.989+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:28.989+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:54:28.995+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:54:29.007+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:29.007+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:54:29.021+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:29.021+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:54:29.034+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T17:55:22.023+0000] {processor.py:157} INFO - Started process (PID=99266) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:55:22.024+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:55:22.025+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:22.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:55:22.030+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:55:22.043+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:22.043+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:55:22.057+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:22.057+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:55:22.074+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T17:56:11.651+0000] {processor.py:157} INFO - Started process (PID=99602) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:56:11.652+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:56:11.653+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:11.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:56:11.658+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:56:11.670+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:11.670+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:56:11.685+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:11.685+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:56:11.699+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T17:57:01.864+0000] {processor.py:157} INFO - Started process (PID=99944) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:01.864+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:57:01.865+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:01.865+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:01.873+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:01.891+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:01.891+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:57:01.913+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:01.913+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:57:01.930+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2024-12-12T17:57:56.119+0000] {processor.py:157} INFO - Started process (PID=100307) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:56.121+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:57:56.122+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:56.121+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:56.131+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:57:56.157+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:56.156+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:57:56.185+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:56.184+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:57:56.205+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.088 seconds
+[2024-12-12T17:58:49.325+0000] {processor.py:157} INFO - Started process (PID=100702) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:58:49.326+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:58:49.327+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:49.327+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:58:49.335+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:58:49.353+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:49.353+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:58:49.375+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:49.375+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:58:49.407+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds
+[2024-12-12T17:59:32.672+0000] {processor.py:157} INFO - Started process (PID=101021) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:59:32.673+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T17:59:32.674+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:32.673+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:59:32.679+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T17:59:32.691+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:32.691+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:59:32.705+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:32.705+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T17:59:32.719+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:00:25.637+0000] {processor.py:157} INFO - Started process (PID=101378) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:00:25.638+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:00:25.639+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:25.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:00:25.644+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:00:25.657+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:25.656+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:00:25.671+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:25.671+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:00:25.686+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:01:14.163+0000] {processor.py:157} INFO - Started process (PID=101714) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:01:14.164+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:01:14.165+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:14.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:01:14.170+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:01:14.183+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:14.183+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:01:14.197+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:14.197+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:01:14.212+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:02:03.305+0000] {processor.py:157} INFO - Started process (PID=102050) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:03.306+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:02:03.307+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:03.306+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:03.312+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:03.325+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:03.324+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:02:03.340+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:03.340+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:02:03.354+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:02:58.056+0000] {processor.py:157} INFO - Started process (PID=102422) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:58.057+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:02:58.058+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:58.057+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:58.063+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:02:58.076+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:58.075+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:02:58.090+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:58.090+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:02:58.104+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:03:44.590+0000] {processor.py:157} INFO - Started process (PID=102742) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:03:44.591+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:03:44.591+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:44.591+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:03:44.597+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:03:44.610+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:44.609+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:03:44.625+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:44.625+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:03:44.641+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T18:04:37.022+0000] {processor.py:157} INFO - Started process (PID=103113) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:04:37.023+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:04:37.023+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:37.023+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:04:37.029+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:04:37.041+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:37.041+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:04:37.056+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:37.056+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:04:37.070+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:05:23.187+0000] {processor.py:157} INFO - Started process (PID=103439) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:05:23.188+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:05:23.189+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:23.189+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:05:23.194+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:05:23.207+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:23.207+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:05:23.222+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:23.222+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:05:23.236+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:06:09.476+0000] {processor.py:157} INFO - Started process (PID=103746) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:09.476+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:06:09.477+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:09.477+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:09.483+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:09.499+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:09.498+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:06:09.513+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:09.513+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:06:09.529+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.055 seconds
+[2024-12-12T18:06:54.447+0000] {processor.py:157} INFO - Started process (PID=104062) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:54.447+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:06:54.448+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:54.448+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:54.453+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:06:54.466+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:54.466+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:06:54.480+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:54.480+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:06:54.493+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:07:41.945+0000] {processor.py:157} INFO - Started process (PID=104383) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:07:41.946+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:07:41.947+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:41.946+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:07:41.952+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:07:41.964+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:41.964+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:07:41.979+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:41.979+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:07:41.994+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:08:28.127+0000] {processor.py:157} INFO - Started process (PID=104704) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:08:28.128+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:08:28.129+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:28.129+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:08:28.134+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:08:28.147+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:28.147+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:08:28.161+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:28.161+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:08:28.175+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:09:20.541+0000] {processor.py:157} INFO - Started process (PID=105085) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:09:20.542+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:09:20.543+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:20.543+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:09:20.548+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:09:20.561+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:20.561+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:09:20.575+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:20.575+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:09:20.589+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:10:13.152+0000] {processor.py:157} INFO - Started process (PID=105446) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:10:13.152+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:10:13.153+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:13.153+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:10:13.159+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:10:13.175+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:13.175+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:10:13.189+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:13.189+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:10:13.203+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T18:11:03.304+0000] {processor.py:157} INFO - Started process (PID=105794) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:03.305+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:11:03.306+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:03.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:03.313+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:03.327+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:03.327+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:11:03.341+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:03.341+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:11:03.354+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T18:11:51.901+0000] {processor.py:157} INFO - Started process (PID=106124) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:51.901+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:11:51.902+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:51.902+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:51.908+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:11:51.921+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:51.921+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:11:51.935+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:51.935+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:11:51.950+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:12:43.272+0000] {processor.py:157} INFO - Started process (PID=106481) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:12:43.273+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:12:43.273+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:43.273+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:12:43.279+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:12:43.293+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:43.293+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:12:43.307+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:43.307+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:12:43.320+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:13:31.113+0000] {processor.py:157} INFO - Started process (PID=106807) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:13:31.114+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:13:31.114+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:31.114+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:13:31.120+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:13:31.133+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:31.133+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:13:31.148+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:31.147+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:13:31.161+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:14:20.762+0000] {processor.py:157} INFO - Started process (PID=107168) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:14:20.763+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:14:20.764+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:20.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:14:20.769+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:14:20.782+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:20.782+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:14:20.796+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:20.796+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:14:20.811+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:15:09.155+0000] {processor.py:157} INFO - Started process (PID=107501) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:15:09.156+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:15:09.156+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:09.156+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:15:09.162+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:15:09.175+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:09.175+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:15:09.189+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:09.189+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:15:09.203+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:16:00.954+0000] {processor.py:157} INFO - Started process (PID=107854) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:00.955+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:16:00.956+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:00.956+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:00.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:00.986+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:00.986+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:16:01.007+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:01.007+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:16:01.024+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.073 seconds
+[2024-12-12T18:16:52.019+0000] {processor.py:157} INFO - Started process (PID=108208) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:52.020+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:16:52.021+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:52.021+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:52.026+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:16:52.040+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:52.039+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:16:52.054+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:52.054+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:16:52.070+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T18:17:37.395+0000] {processor.py:157} INFO - Started process (PID=108516) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:17:37.396+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:17:37.396+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:37.396+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:17:37.402+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:17:37.415+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:37.414+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:17:37.430+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:37.430+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:17:37.444+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:18:23.640+0000] {processor.py:157} INFO - Started process (PID=108835) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:18:23.641+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:18:23.642+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:23.642+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:18:23.647+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:18:23.660+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:23.660+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:18:23.674+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:23.674+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:18:23.688+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:19:13.983+0000] {processor.py:157} INFO - Started process (PID=109198) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:19:13.983+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:19:13.984+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:13.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:19:13.990+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:19:14.002+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:14.002+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:19:14.017+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:14.017+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:19:14.031+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:20:02.949+0000] {processor.py:157} INFO - Started process (PID=109532) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:02.950+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:20:02.950+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:02.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:02.956+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:02.968+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:02.968+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:20:02.983+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:02.982+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:20:02.996+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:20:50.917+0000] {processor.py:157} INFO - Started process (PID=109860) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:50.918+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:20:50.918+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:50.918+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:50.924+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:20:50.936+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:50.936+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:20:50.951+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:50.950+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:20:50.964+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:21:43.880+0000] {processor.py:157} INFO - Started process (PID=110221) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:21:43.881+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:21:43.882+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:43.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:21:43.887+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:21:43.904+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:43.904+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:21:43.924+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:43.924+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:21:43.945+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2024-12-12T18:22:33.575+0000] {processor.py:157} INFO - Started process (PID=110565) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:22:33.576+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:22:33.577+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:33.577+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:22:33.582+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:22:33.595+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:33.594+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:22:33.609+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:33.609+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:22:33.622+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:23:24.388+0000] {processor.py:157} INFO - Started process (PID=110908) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:23:24.388+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:23:24.389+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:24.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:23:24.394+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:23:24.407+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:24.406+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:23:24.421+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:24.421+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:23:24.435+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:24:11.431+0000] {processor.py:157} INFO - Started process (PID=111259) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:11.432+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:24:11.433+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:11.433+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:11.438+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:11.451+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:11.451+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:24:11.465+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:11.465+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:24:11.479+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:24:56.627+0000] {processor.py:157} INFO - Started process (PID=111565) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:56.628+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:24:56.629+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:56.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:56.634+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:24:56.646+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:56.646+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:24:56.661+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:56.661+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:24:56.674+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:25:44.995+0000] {processor.py:157} INFO - Started process (PID=111900) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:25:44.996+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:25:44.997+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:44.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:25:45.002+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:25:45.015+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:45.015+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:25:45.030+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:45.030+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:25:45.044+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:26:35.184+0000] {processor.py:157} INFO - Started process (PID=112237) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:26:35.184+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:26:35.185+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:35.185+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:26:35.191+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:26:35.203+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:35.203+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:26:35.218+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:35.218+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:26:35.232+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:27:21.293+0000] {processor.py:157} INFO - Started process (PID=112564) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:27:21.293+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:27:21.294+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:21.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:27:21.299+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:27:21.311+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:21.311+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:27:21.325+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:21.325+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:27:21.339+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T18:28:11.480+0000] {processor.py:157} INFO - Started process (PID=112908) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:11.481+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:28:11.481+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:11.481+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:11.487+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:11.499+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:11.499+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:28:11.513+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:11.513+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:28:11.527+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:28:59.753+0000] {processor.py:157} INFO - Started process (PID=113255) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:59.754+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:28:59.755+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:59.755+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:59.761+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:28:59.773+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:59.773+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:28:59.788+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:59.788+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:28:59.803+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:29:50.540+0000] {processor.py:157} INFO - Started process (PID=113600) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:29:50.541+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:29:50.542+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:50.542+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:29:50.547+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:29:50.560+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:50.560+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:29:50.574+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:50.574+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:29:50.588+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2024-12-12T18:30:40.568+0000] {processor.py:157} INFO - Started process (PID=113948) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:30:40.568+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:30:40.569+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:40.569+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:30:40.574+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:30:40.587+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:40.587+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:30:40.601+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:40.601+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:30:40.614+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:31:27.049+0000] {processor.py:157} INFO - Started process (PID=114266) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:31:27.050+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:31:27.051+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:27.050+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:31:27.056+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:31:27.069+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:27.068+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:31:27.083+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:27.083+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:31:27.097+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:32:20.038+0000] {processor.py:157} INFO - Started process (PID=114631) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:32:20.039+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:32:20.040+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:20.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:32:20.045+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:32:20.057+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:20.057+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:32:20.071+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:20.071+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:32:20.085+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:33:09.795+0000] {processor.py:157} INFO - Started process (PID=114971) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:09.796+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:33:09.796+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:09.796+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:09.802+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:09.814+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:09.814+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:33:09.829+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:09.829+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:33:09.843+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:33:56.130+0000] {processor.py:157} INFO - Started process (PID=115317) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:56.131+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:33:56.132+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:56.132+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:56.137+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:33:56.150+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:56.150+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:33:56.165+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:56.164+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:33:56.179+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:34:45.220+0000] {processor.py:157} INFO - Started process (PID=115654) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:34:45.221+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:34:45.221+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:45.221+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:34:45.227+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:34:45.240+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:45.239+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:34:45.254+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:45.254+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:34:45.269+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:35:33.231+0000] {processor.py:157} INFO - Started process (PID=115989) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:35:33.232+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:35:33.233+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:33.233+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:35:33.241+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:35:33.260+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:33.259+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:35:33.282+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:33.282+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:35:33.299+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.071 seconds
+[2024-12-12T18:36:25.390+0000] {processor.py:157} INFO - Started process (PID=116344) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:36:25.391+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:36:25.391+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:25.391+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:36:25.397+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:36:25.410+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:25.410+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:36:25.425+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:25.425+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:36:25.439+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2024-12-12T18:37:12.319+0000] {processor.py:157} INFO - Started process (PID=116666) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:37:12.320+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:37:12.320+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:12.320+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:37:12.326+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:37:12.339+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:12.339+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:37:12.357+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:12.357+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:37:12.371+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.054 seconds
+[2024-12-12T18:38:06.130+0000] {processor.py:157} INFO - Started process (PID=117031) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:06.131+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:38:06.132+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:06.132+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:06.137+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:06.150+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:06.150+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:38:06.164+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:06.164+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:38:06.178+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:38:58.234+0000] {processor.py:157} INFO - Started process (PID=117407) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:58.235+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:38:58.236+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:58.236+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:58.242+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:38:58.254+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:58.254+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:38:58.269+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:58.269+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:38:58.285+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T18:39:45.101+0000] {processor.py:157} INFO - Started process (PID=117733) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:39:45.101+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:39:45.102+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:45.102+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:39:45.108+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:39:45.120+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:45.120+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:39:45.135+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:45.135+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:39:45.150+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:40:35.031+0000] {processor.py:157} INFO - Started process (PID=118068) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:40:35.032+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:40:35.033+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:35.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:40:35.038+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:40:35.051+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:35.050+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:40:35.065+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:35.065+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:40:35.079+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:41:22.863+0000] {processor.py:157} INFO - Started process (PID=118397) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:41:22.864+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:41:22.865+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:22.864+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:41:22.870+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:41:22.882+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:22.882+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:41:22.896+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:22.896+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:41:22.910+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:42:15.188+0000] {processor.py:157} INFO - Started process (PID=118757) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:42:15.189+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:42:15.190+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:15.189+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:42:15.195+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:42:15.208+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:15.208+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:42:15.223+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:15.222+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:42:15.237+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:43:01.723+0000] {processor.py:157} INFO - Started process (PID=119070) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:01.724+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:43:01.724+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:01.724+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:01.730+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:01.742+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:01.742+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:43:01.756+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:01.756+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:43:01.770+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:43:50.048+0000] {processor.py:157} INFO - Started process (PID=119424) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:50.049+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:43:50.050+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:50.050+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:50.055+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:43:50.067+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:50.067+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:43:50.082+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:50.081+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:43:50.099+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2024-12-12T18:44:35.132+0000] {processor.py:157} INFO - Started process (PID=119792) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:44:35.132+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:44:35.133+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:35.133+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:44:35.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:44:35.151+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:35.151+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:44:35.165+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:35.165+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:44:35.179+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:45:27.613+0000] {processor.py:157} INFO - Started process (PID=120153) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:45:27.614+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:45:27.614+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:27.614+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:45:27.620+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:45:27.632+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:27.632+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:45:27.647+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:27.647+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:45:27.661+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:46:21.756+0000] {processor.py:157} INFO - Started process (PID=120520) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:46:21.756+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:46:21.757+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:21.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:46:21.762+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:46:21.775+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:21.775+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:46:21.790+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:21.790+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:46:21.803+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:47:11.983+0000] {processor.py:157} INFO - Started process (PID=120909) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:47:11.984+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:47:11.985+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:11.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:47:11.993+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:47:12.011+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:12.010+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:47:12.033+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:12.033+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:47:12.054+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.075 seconds
+[2024-12-12T18:48:03.085+0000] {processor.py:157} INFO - Started process (PID=121399) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:03.086+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:48:03.087+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:03.086+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:03.092+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:03.106+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:03.105+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:48:03.124+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:03.124+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:48:03.143+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.060 seconds
+[2024-12-12T18:48:50.463+0000] {processor.py:157} INFO - Started process (PID=121822) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:50.464+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:48:50.464+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:50.464+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:50.470+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:48:50.482+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:50.482+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:48:50.496+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:50.496+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:48:50.509+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T18:49:38.814+0000] {processor.py:157} INFO - Started process (PID=122149) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:49:38.815+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:49:38.816+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:38.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:49:38.821+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:49:38.834+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:38.833+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:49:38.848+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:38.848+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:49:38.862+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:50:31.790+0000] {processor.py:157} INFO - Started process (PID=122511) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:50:31.791+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:50:31.792+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:31.792+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:50:31.797+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:50:31.810+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:31.810+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:50:31.824+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:31.824+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:50:31.842+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.054 seconds
+[2024-12-12T18:51:20.870+0000] {processor.py:157} INFO - Started process (PID=122863) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:51:20.871+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:51:20.872+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:20.872+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:51:20.878+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:51:20.890+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:20.890+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:51:20.904+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:20.904+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:51:20.920+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds
+[2024-12-12T18:52:12.976+0000] {processor.py:157} INFO - Started process (PID=123215) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:52:12.977+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:52:12.978+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:12.978+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:52:12.983+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:52:12.996+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:12.995+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:52:13.010+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:13.010+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:52:13.023+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:53:04.209+0000] {processor.py:157} INFO - Started process (PID=123571) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:04.210+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:53:04.211+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:04.210+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:04.216+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:04.228+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:04.228+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:53:04.242+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:04.242+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:53:04.256+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:53:50.040+0000] {processor.py:157} INFO - Started process (PID=123909) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:50.041+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:53:50.041+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:50.041+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:50.047+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:53:50.059+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:50.059+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:53:50.073+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:50.073+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:53:50.086+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T18:54:37.477+0000] {processor.py:157} INFO - Started process (PID=124230) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:54:37.478+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:54:37.479+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:37.479+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:54:37.489+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:54:37.505+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:37.505+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:54:37.519+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:37.519+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:54:37.532+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2024-12-12T18:55:23.969+0000] {processor.py:157} INFO - Started process (PID=124552) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:55:23.970+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:55:23.971+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:23.971+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:55:23.976+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:55:23.988+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:23.988+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:55:24.002+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:24.002+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:55:24.016+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:56:16.909+0000] {processor.py:157} INFO - Started process (PID=124976) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:56:16.910+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:56:16.911+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:16.911+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:56:16.916+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:56:16.929+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:16.928+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:56:16.943+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:16.943+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:56:16.957+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:57:01.256+0000] {processor.py:157} INFO - Started process (PID=125323) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:01.257+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:57:01.258+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:01.257+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:01.263+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:01.275+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:01.275+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:57:01.289+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:01.289+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:57:01.304+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:57:51.961+0000] {processor.py:157} INFO - Started process (PID=125788) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:51.961+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:57:51.962+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:51.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:51.967+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:57:51.980+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:51.980+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:57:51.994+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:51.994+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:57:52.007+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T18:58:46.784+0000] {processor.py:157} INFO - Started process (PID=126162) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:58:46.784+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:58:46.785+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:46.785+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:58:46.791+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:58:46.803+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:46.803+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:58:46.817+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:46.817+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:58:46.831+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T18:59:36.350+0000] {processor.py:157} INFO - Started process (PID=126527) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:59:36.350+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T18:59:36.351+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:36.351+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:59:36.356+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T18:59:36.369+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:36.369+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:59:36.383+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:36.383+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T18:59:36.400+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2024-12-12T19:00:26.728+0000] {processor.py:157} INFO - Started process (PID=126949) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:00:26.729+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T19:00:26.730+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:26.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:00:26.735+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:00:26.747+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:26.747+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:00:26.761+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:26.760+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T19:00:26.774+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2024-12-12T19:01:14.959+0000] {processor.py:157} INFO - Started process (PID=127323) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:01:14.959+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T19:01:14.960+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:14.960+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:01:14.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:01:14.978+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:14.977+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:01:14.992+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:14.992+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T19:01:15.007+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.050 seconds
+[2024-12-12T19:02:01.201+0000] {processor.py:157} INFO - Started process (PID=127656) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:01.202+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T19:02:01.202+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:01.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:01.208+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:01.220+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:01.220+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:02:01.234+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:01.234+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T19:02:01.248+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2024-12-12T19:02:53.660+0000] {processor.py:157} INFO - Started process (PID=128054) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:53.661+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-12T19:02:53.662+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:53.661+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:53.667+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-12T19:02:53.680+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:53.680+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:02:53.695+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:53.695+0000] {dag.py:3504} INFO - Setting next_dagrun for example_branch_labels to 2024-12-11T00:00:00+00:00, run_after=2024-12-12T00:00:00+00:00
+[2024-12-12T19:02:53.709+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.051 seconds

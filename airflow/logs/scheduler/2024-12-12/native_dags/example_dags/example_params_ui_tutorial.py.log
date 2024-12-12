@@ -1395,3 +1395,787 @@
 [2024-12-12T17:46:50.314+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:46:50.314+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-12T17:46:50.328+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:46:50.327+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
 [2024-12-12T17:46:50.342+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T17:47:35.317+0000] {processor.py:157} INFO - Started process (PID=96024) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:47:35.318+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:47:35.319+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:35.319+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:47:35.335+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:47:35.359+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:35.359+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:47:35.372+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:47:35.372+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:47:35.387+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T17:48:09.297+0000] {processor.py:157} INFO - Started process (PID=96257) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:09.298+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:48:09.299+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:09.298+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:09.316+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:09.340+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:09.339+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:48:09.353+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:09.352+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:48:09.366+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T17:48:58.689+0000] {processor.py:157} INFO - Started process (PID=96616) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:58.689+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:48:58.690+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:58.690+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:58.706+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:48:58.728+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:58.728+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:48:58.741+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:48:58.741+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:48:58.754+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T17:49:34.064+0000] {processor.py:157} INFO - Started process (PID=96866) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:49:34.065+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:49:34.066+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:34.065+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:49:34.082+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:49:34.105+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:34.105+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:49:34.117+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:49:34.117+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:49:34.131+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T17:50:24.281+0000] {processor.py:157} INFO - Started process (PID=97208) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:24.281+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:50:24.282+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:24.282+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:24.298+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:24.321+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:24.320+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:50:24.334+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:24.334+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:50:24.349+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T17:50:57.820+0000] {processor.py:157} INFO - Started process (PID=97441) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:57.821+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:50:57.821+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:57.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:57.837+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:50:57.860+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:57.860+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:50:57.873+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:50:57.873+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:50:57.886+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T17:51:43.035+0000] {processor.py:157} INFO - Started process (PID=97751) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:51:43.036+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:51:43.037+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:43.036+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:51:43.053+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:51:43.076+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:43.075+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:51:43.090+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:51:43.089+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:51:43.104+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T17:52:29.750+0000] {processor.py:157} INFO - Started process (PID=98069) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:52:29.751+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:52:29.752+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:29.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:52:29.776+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:52:29.814+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:29.814+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:52:29.835+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:52:29.835+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:52:29.850+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.103 seconds
+[2024-12-12T17:53:12.963+0000] {processor.py:157} INFO - Started process (PID=98361) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:12.964+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:53:12.965+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:12.964+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:12.980+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:13.004+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:13.004+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:53:13.018+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:13.018+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:53:13.032+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T17:53:44.886+0000] {processor.py:157} INFO - Started process (PID=98582) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:44.887+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:53:44.888+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:44.888+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:44.911+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:53:44.934+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:44.934+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:53:44.947+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:53:44.947+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:53:44.961+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-12T17:54:17.582+0000] {processor.py:157} INFO - Started process (PID=98830) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:54:17.583+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:54:17.584+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:17.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:54:17.600+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:54:17.628+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:17.628+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:54:17.641+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:54:17.641+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:54:17.656+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.076 seconds
+[2024-12-12T17:55:06.617+0000] {processor.py:157} INFO - Started process (PID=99160) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:06.617+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:55:06.618+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:06.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:06.634+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:06.657+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:06.657+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:55:06.670+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:06.670+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:55:06.684+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T17:55:40.840+0000] {processor.py:157} INFO - Started process (PID=99397) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:40.841+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:55:40.842+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:40.841+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:40.863+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:55:40.899+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:40.899+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:55:40.920+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:55:40.919+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:55:40.935+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.097 seconds
+[2024-12-12T17:56:16.227+0000] {processor.py:157} INFO - Started process (PID=99636) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:16.228+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:56:16.229+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:16.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:16.245+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:16.267+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:16.267+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:56:16.280+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:16.280+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:56:16.294+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T17:56:49.319+0000] {processor.py:157} INFO - Started process (PID=99863) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:49.320+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:56:49.321+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:49.320+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:49.336+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:56:49.359+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:49.358+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:56:49.371+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:56:49.371+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:56:49.385+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T17:57:25.275+0000] {processor.py:157} INFO - Started process (PID=100102) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:57:25.276+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:57:25.277+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:25.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:57:25.292+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:57:25.315+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:25.315+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:57:25.329+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:57:25.329+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:57:25.342+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T17:58:00.882+0000] {processor.py:157} INFO - Started process (PID=100348) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:00.883+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:58:00.884+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:00.883+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:00.900+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:00.923+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:00.923+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:58:00.935+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:00.935+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:58:00.950+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T17:58:35.219+0000] {processor.py:157} INFO - Started process (PID=100585) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:35.219+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:58:35.220+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:35.220+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:35.236+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:58:35.259+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:35.259+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:58:35.273+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:58:35.273+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:58:35.287+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T17:59:08.735+0000] {processor.py:157} INFO - Started process (PID=100860) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:08.736+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:59:08.737+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:08.737+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:08.752+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:08.774+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:08.774+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:59:08.787+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:08.787+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:59:08.801+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T17:59:53.828+0000] {processor.py:157} INFO - Started process (PID=101162) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:53.829+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T17:59:53.829+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:53.829+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:53.845+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T17:59:53.871+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:53.870+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T17:59:53.884+0000] {logging_mixin.py:150} INFO - [2024-12-12T17:59:53.884+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T17:59:53.898+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2024-12-12T18:00:29.637+0000] {processor.py:157} INFO - Started process (PID=101411) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:00:29.637+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:00:29.638+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:29.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:00:29.654+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:00:29.677+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:29.677+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:00:29.691+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:00:29.691+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:00:29.705+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:01:02.732+0000] {processor.py:157} INFO - Started process (PID=101635) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:02.732+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:01:02.733+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:02.733+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:02.750+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:02.773+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:02.773+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:01:02.786+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:02.786+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:01:02.799+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:01:51.294+0000] {processor.py:157} INFO - Started process (PID=101969) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:51.295+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:01:51.296+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:51.296+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:51.322+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:01:51.360+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:51.360+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:01:51.382+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:01:51.381+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:01:51.401+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.110 seconds
+[2024-12-12T18:02:26.658+0000] {processor.py:157} INFO - Started process (PID=102200) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:02:26.659+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:02:26.660+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:26.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:02:26.683+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:02:26.719+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:26.719+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:02:26.739+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:02:26.739+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:02:26.754+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.098 seconds
+[2024-12-12T18:03:02.231+0000] {processor.py:157} INFO - Started process (PID=102456) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:02.232+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:03:02.233+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:02.232+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:02.258+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:02.284+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:02.284+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:03:02.297+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:02.297+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:03:02.312+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.083 seconds
+[2024-12-12T18:03:51.709+0000] {processor.py:157} INFO - Started process (PID=102810) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:51.710+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:03:51.711+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:51.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:51.728+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:03:51.753+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:51.753+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:03:51.767+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:03:51.767+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:03:51.783+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.075 seconds
+[2024-12-12T18:04:27.730+0000] {processor.py:157} INFO - Started process (PID=103056) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:04:27.731+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:04:27.732+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:27.732+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:04:27.748+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:04:27.772+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:27.772+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:04:27.788+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:04:27.787+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:04:27.815+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.087 seconds
+[2024-12-12T18:05:13.129+0000] {processor.py:157} INFO - Started process (PID=103368) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:13.130+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:05:13.131+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:13.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:13.147+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:13.172+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:13.172+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:05:13.186+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:13.186+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:05:13.201+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.074 seconds
+[2024-12-12T18:05:57.963+0000] {processor.py:157} INFO - Started process (PID=103667) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:57.964+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:05:57.964+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:57.964+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:57.988+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:05:58.025+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:58.024+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:05:58.045+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:05:58.044+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:05:58.059+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.098 seconds
+[2024-12-12T18:06:43.872+0000] {processor.py:157} INFO - Started process (PID=103990) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:06:43.873+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:06:43.873+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:43.873+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:06:43.890+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:06:43.913+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:43.913+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:06:43.927+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:06:43.927+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:06:43.941+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:07:30.379+0000] {processor.py:157} INFO - Started process (PID=104304) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:07:30.380+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:07:30.381+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:30.381+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:07:30.397+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:07:30.420+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:30.420+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:07:30.434+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:07:30.433+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:07:30.449+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:08:16.294+0000] {processor.py:157} INFO - Started process (PID=104625) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:08:16.294+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:08:16.295+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:16.295+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:08:16.311+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:08:16.334+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:16.334+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:08:16.348+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:08:16.347+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:08:16.361+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:09:04.647+0000] {processor.py:157} INFO - Started process (PID=104980) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:04.648+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:09:04.649+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:04.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:04.665+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:04.694+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:04.694+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:09:04.708+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:04.708+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:09:04.722+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-12T18:09:42.219+0000] {processor.py:157} INFO - Started process (PID=105236) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:42.220+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:09:42.221+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:42.221+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:42.237+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:09:42.261+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:42.260+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:09:42.274+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:09:42.274+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:09:42.289+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:10:14.787+0000] {processor.py:157} INFO - Started process (PID=105458) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:14.788+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:10:14.789+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:14.789+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:14.805+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:14.829+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:14.829+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:10:14.842+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:14.842+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:10:14.857+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:10:50.490+0000] {processor.py:157} INFO - Started process (PID=105697) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:50.491+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:10:50.491+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:50.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:50.507+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:10:50.532+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:50.532+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:10:50.547+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:10:50.547+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:10:50.561+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2024-12-12T18:11:36.380+0000] {processor.py:157} INFO - Started process (PID=106024) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:11:36.381+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:11:36.382+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:36.381+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:11:36.401+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:11:36.430+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:36.430+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:11:36.447+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:11:36.447+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:11:36.465+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.087 seconds
+[2024-12-12T18:12:12.943+0000] {processor.py:157} INFO - Started process (PID=106267) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:12.944+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:12:12.944+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:12.944+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:12.964+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:12.998+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:12.998+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:12:13.012+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:13.012+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:12:13.028+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.087 seconds
+[2024-12-12T18:12:45.765+0000] {processor.py:157} INFO - Started process (PID=106499) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:45.766+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:12:45.767+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:45.766+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:45.783+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:12:45.806+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:45.806+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:12:45.819+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:12:45.819+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:12:45.833+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:13:34.510+0000] {processor.py:157} INFO - Started process (PID=106831) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:13:34.511+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:13:34.512+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:34.512+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:13:34.528+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:13:34.551+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:34.551+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:13:34.564+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:13:34.564+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:13:34.578+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:14:08.261+0000] {processor.py:157} INFO - Started process (PID=107087) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:08.262+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:14:08.262+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:08.262+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:08.278+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:08.301+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:08.301+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:14:08.314+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:08.314+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:14:08.329+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:14:57.024+0000] {processor.py:157} INFO - Started process (PID=107421) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:57.024+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:14:57.025+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:57.025+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:57.041+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:14:57.065+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:57.064+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:14:57.077+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:14:57.077+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:14:57.091+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:15:32.181+0000] {processor.py:157} INFO - Started process (PID=107652) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:15:32.182+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:15:32.183+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:32.183+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:15:32.207+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:15:32.232+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:32.232+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:15:32.245+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:15:32.245+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:15:32.259+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.080 seconds
+[2024-12-12T18:16:21.225+0000] {processor.py:157} INFO - Started process (PID=107997) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:21.227+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:16:21.228+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:21.228+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:21.249+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:21.273+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:21.272+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:16:21.286+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:21.286+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:16:21.301+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.078 seconds
+[2024-12-12T18:16:56.293+0000] {processor.py:157} INFO - Started process (PID=108241) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:56.294+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:16:56.295+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:56.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:56.311+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:16:56.335+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:56.335+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:16:56.349+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:16:56.349+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:16:56.363+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:17:41.251+0000] {processor.py:157} INFO - Started process (PID=108543) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:17:41.251+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:17:41.252+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:41.252+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:17:41.274+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:17:41.297+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:41.297+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:17:41.311+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:17:41.311+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:17:41.325+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-12T18:18:27.646+0000] {processor.py:157} INFO - Started process (PID=108861) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:18:27.648+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:18:27.649+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:27.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:18:27.680+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:18:27.729+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:27.729+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:18:27.754+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:18:27.754+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:18:27.780+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.137 seconds
+[2024-12-12T18:19:02.284+0000] {processor.py:157} INFO - Started process (PID=109120) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:02.285+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:19:02.286+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:02.285+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:02.302+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:02.325+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:02.325+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:19:02.339+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:02.339+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:19:02.353+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:19:50.982+0000] {processor.py:157} INFO - Started process (PID=109451) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:50.983+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:19:50.983+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:50.983+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:51.000+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:19:51.023+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:51.023+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:19:51.037+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:19:51.037+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:19:51.051+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:20:37.253+0000] {processor.py:157} INFO - Started process (PID=109766) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:20:37.254+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:20:37.255+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:37.255+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:20:37.274+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:20:37.308+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:37.308+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:20:37.322+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:20:37.322+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:20:37.337+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.085 seconds
+[2024-12-12T18:21:11.996+0000] {processor.py:157} INFO - Started process (PID=110006) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:11.997+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:21:11.998+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:11.998+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:12.014+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:12.037+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:12.037+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:21:12.050+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:12.050+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:21:12.064+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:21:47.879+0000] {processor.py:157} INFO - Started process (PID=110248) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:47.880+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:21:47.881+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:47.880+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:47.896+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:21:47.919+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:47.919+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:21:47.932+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:21:47.932+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:21:47.947+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:22:37.813+0000] {processor.py:157} INFO - Started process (PID=110598) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:22:37.814+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:22:37.815+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:37.815+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:22:37.833+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:22:37.857+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:37.857+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:22:37.871+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:22:37.870+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:22:37.884+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2024-12-12T18:23:13.434+0000] {processor.py:157} INFO - Started process (PID=110831) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:23:13.435+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:23:13.435+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:13.435+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:23:13.452+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:23:13.475+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:13.475+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:23:13.489+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:23:13.489+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:23:13.504+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2024-12-12T18:24:00.548+0000] {processor.py:157} INFO - Started process (PID=111181) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:00.549+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:24:00.550+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:00.550+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:00.566+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:00.589+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:00.589+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:24:00.602+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:00.601+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:24:00.615+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:24:45.649+0000] {processor.py:157} INFO - Started process (PID=111492) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:45.650+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:24:45.651+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:45.651+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:45.667+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:24:45.689+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:45.689+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:24:45.703+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:24:45.703+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:24:45.717+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:25:33.579+0000] {processor.py:157} INFO - Started process (PID=111822) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:25:33.579+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:25:33.580+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:33.580+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:25:33.596+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:25:33.619+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:33.619+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:25:33.632+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:25:33.631+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:25:33.645+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T18:26:22.085+0000] {processor.py:157} INFO - Started process (PID=112153) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:26:22.086+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:26:22.086+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:22.086+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:26:22.102+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:26:22.126+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:22.126+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:26:22.139+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:26:22.139+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:26:22.154+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:27:07.723+0000] {processor.py:157} INFO - Started process (PID=112462) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:07.724+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:27:07.725+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:07.725+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:07.741+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:07.764+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:07.764+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:27:07.777+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:07.777+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:27:07.791+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:27:40.966+0000] {processor.py:157} INFO - Started process (PID=112698) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:40.967+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:27:40.968+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:40.967+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:40.984+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:27:41.014+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:41.014+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:27:41.038+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:27:41.038+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:27:41.055+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.091 seconds
+[2024-12-12T18:28:16.009+0000] {processor.py:157} INFO - Started process (PID=112936) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:28:16.010+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:28:16.011+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:16.010+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:28:16.027+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:28:16.051+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:16.050+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:28:16.064+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:28:16.064+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:28:16.077+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:29:02.757+0000] {processor.py:157} INFO - Started process (PID=113279) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:02.757+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:29:02.758+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:02.758+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:02.774+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:02.797+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:02.797+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:29:02.811+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:02.811+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:29:02.824+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:29:36.988+0000] {processor.py:157} INFO - Started process (PID=113511) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:36.989+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:29:36.989+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:36.989+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:37.006+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:29:37.028+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:37.028+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:29:37.042+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:29:37.041+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:29:37.055+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:30:10.419+0000] {processor.py:157} INFO - Started process (PID=113740) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:10.420+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:30:10.420+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:10.420+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:10.436+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:10.459+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:10.459+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:30:10.473+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:10.472+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:30:10.488+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:30:43.569+0000] {processor.py:157} INFO - Started process (PID=113961) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:43.570+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:30:43.570+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:43.570+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:43.588+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:30:43.624+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:43.624+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:30:43.638+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:30:43.638+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:30:43.684+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.117 seconds
+[2024-12-12T18:31:28.685+0000] {processor.py:157} INFO - Started process (PID=114275) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:31:28.686+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:31:28.687+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:28.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:31:28.703+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:31:28.725+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:28.725+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:31:28.738+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:31:28.738+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:31:28.751+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T18:32:04.630+0000] {processor.py:157} INFO - Started process (PID=114524) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:04.631+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:32:04.631+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:04.631+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:04.648+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:04.671+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:04.671+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:32:04.685+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:04.685+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:32:04.699+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:32:37.712+0000] {processor.py:157} INFO - Started process (PID=114757) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:37.712+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:32:37.713+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:37.713+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:37.729+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:32:37.754+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:37.754+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:32:37.767+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:32:37.767+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:32:37.781+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:33:14.131+0000] {processor.py:157} INFO - Started process (PID=115013) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:14.132+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:33:14.133+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:14.132+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:14.151+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:14.175+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:14.174+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:33:14.188+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:14.188+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:33:14.203+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.075 seconds
+[2024-12-12T18:33:59.721+0000] {processor.py:157} INFO - Started process (PID=115337) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:59.722+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:33:59.722+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:59.722+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:59.738+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:33:59.762+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:59.762+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:33:59.776+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:33:59.775+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:33:59.790+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:34:51.008+0000] {processor.py:157} INFO - Started process (PID=115690) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:34:51.009+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:34:51.009+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:51.009+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:34:51.025+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:34:51.049+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:51.048+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:34:51.062+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:34:51.062+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:34:51.076+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:35:36.988+0000] {processor.py:157} INFO - Started process (PID=116009) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:35:36.989+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:35:36.990+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:36.990+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:35:37.006+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:35:37.029+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:37.029+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:35:37.043+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:35:37.043+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:35:37.059+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2024-12-12T18:36:12.147+0000] {processor.py:157} INFO - Started process (PID=116246) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:12.147+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:36:12.148+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:12.148+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:12.164+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:12.188+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:12.187+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:36:12.201+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:12.201+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:36:12.215+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:36:45.491+0000] {processor.py:157} INFO - Started process (PID=116480) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:45.492+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:36:45.492+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:45.492+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:45.509+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:36:45.533+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:45.533+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:36:45.546+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:36:45.546+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:36:45.560+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:37:32.969+0000] {processor.py:157} INFO - Started process (PID=116807) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:37:32.970+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:37:32.970+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:32.970+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:37:32.988+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:37:33.021+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:33.021+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:37:33.036+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:37:33.035+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:37:33.050+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.084 seconds
+[2024-12-12T18:38:11.151+0000] {processor.py:157} INFO - Started process (PID=117063) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:11.152+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:38:11.153+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:11.153+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:11.175+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:11.198+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:11.198+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:38:11.212+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:11.211+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:38:11.225+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-12T18:38:45.981+0000] {processor.py:157} INFO - Started process (PID=117304) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:45.982+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:38:45.982+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:45.982+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:45.999+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:38:46.022+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:46.022+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:38:46.035+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:38:46.035+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:38:46.048+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:39:33.304+0000] {processor.py:157} INFO - Started process (PID=117646) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:39:33.305+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:39:33.305+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:33.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:39:33.321+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:39:33.345+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:33.345+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:39:33.359+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:39:33.359+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:39:33.373+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:40:21.276+0000] {processor.py:157} INFO - Started process (PID=117973) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:21.277+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:40:21.277+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:21.277+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:21.293+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:21.318+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:21.318+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:40:21.338+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:21.337+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:40:21.358+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.085 seconds
+[2024-12-12T18:40:57.183+0000] {processor.py:157} INFO - Started process (PID=118220) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:57.184+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:40:57.185+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:57.185+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:57.201+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:40:57.224+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:57.223+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:40:57.237+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:40:57.237+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:40:57.252+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:41:47.189+0000] {processor.py:157} INFO - Started process (PID=118562) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:41:47.190+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:41:47.191+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:47.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:41:47.207+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:41:47.238+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:47.238+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:41:47.265+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:41:47.265+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:41:47.283+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.096 seconds
+[2024-12-12T18:42:32.588+0000] {processor.py:157} INFO - Started process (PID=118874) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:42:32.589+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:42:32.590+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:32.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:42:32.606+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:42:32.630+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:32.629+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:42:32.643+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:42:32.643+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:42:32.656+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:43:07.753+0000] {processor.py:157} INFO - Started process (PID=119114) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:07.754+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:43:07.755+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:07.755+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:07.771+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:07.793+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:07.793+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:43:07.807+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:07.806+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:43:07.820+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:43:56.214+0000] {processor.py:157} INFO - Started process (PID=119467) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:56.215+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:43:56.215+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:56.215+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:56.231+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:43:56.254+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:56.254+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:43:56.267+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:43:56.267+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:43:56.280+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T18:44:39.137+0000] {processor.py:157} INFO - Started process (PID=119826) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:44:39.138+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:44:39.139+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:39.139+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:44:39.155+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:44:39.177+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:39.177+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:44:39.190+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:44:39.190+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:44:39.206+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:45:30.388+0000] {processor.py:157} INFO - Started process (PID=120172) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:45:30.389+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:45:30.389+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:30.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:45:30.405+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:45:30.428+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:30.428+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:45:30.441+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:45:30.441+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:45:30.455+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:46:06.345+0000] {processor.py:157} INFO - Started process (PID=120411) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:06.346+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:46:06.347+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:06.347+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:06.363+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:06.386+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:06.386+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:46:06.399+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:06.399+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:46:06.413+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:46:42.282+0000] {processor.py:157} INFO - Started process (PID=120678) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:42.283+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:46:42.284+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:42.283+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:42.303+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:46:42.327+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:42.327+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:46:42.340+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:46:42.340+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:46:42.354+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.074 seconds
+[2024-12-12T18:47:15.085+0000] {processor.py:157} INFO - Started process (PID=120950) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:15.086+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:47:15.087+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:15.087+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:15.103+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:15.126+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:15.126+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:47:15.139+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:15.139+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:47:15.153+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:47:51.350+0000] {processor.py:157} INFO - Started process (PID=121326) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:51.351+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:47:51.352+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:51.351+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:51.368+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:47:51.391+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:51.391+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:47:51.405+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:47:51.405+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:47:51.419+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:48:38.446+0000] {processor.py:157} INFO - Started process (PID=121712) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:48:38.447+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:48:38.448+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:38.447+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:48:38.464+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:48:38.487+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:38.487+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:48:38.501+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:48:38.501+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:48:38.515+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:49:26.180+0000] {processor.py:157} INFO - Started process (PID=122056) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:49:26.181+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:49:26.182+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:26.181+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:49:26.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:49:26.221+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:26.221+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:49:26.235+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:49:26.235+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:49:26.249+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:50:02.151+0000] {processor.py:157} INFO - Started process (PID=122307) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:02.152+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:50:02.152+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:02.152+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:02.169+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:02.193+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:02.192+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:50:02.207+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:02.207+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:50:02.220+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:50:35.361+0000] {processor.py:157} INFO - Started process (PID=122531) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:35.362+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:50:35.363+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:35.362+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:35.378+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:50:35.402+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:35.402+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:50:35.416+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:50:35.416+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:50:35.430+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:51:25.406+0000] {processor.py:157} INFO - Started process (PID=122889) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:25.407+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:51:25.408+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:25.407+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:25.423+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:25.446+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:25.446+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:51:25.460+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:25.459+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:51:25.474+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:51:59.105+0000] {processor.py:157} INFO - Started process (PID=123120) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:59.107+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:51:59.108+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:59.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:59.132+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:51:59.156+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:59.156+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:51:59.170+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:51:59.170+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:51:59.184+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.082 seconds
+[2024-12-12T18:52:35.052+0000] {processor.py:157} INFO - Started process (PID=123365) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:52:35.053+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:52:35.054+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:35.053+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:52:35.070+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:52:35.093+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:35.093+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:52:35.106+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:52:35.106+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:52:35.120+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:53:06.893+0000] {processor.py:157} INFO - Started process (PID=123591) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:06.894+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:53:06.895+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:06.894+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:06.912+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:06.935+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:06.935+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:53:06.948+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:06.948+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:53:06.961+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2024-12-12T18:53:55.473+0000] {processor.py:157} INFO - Started process (PID=123943) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:55.473+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:53:55.474+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:55.474+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:55.490+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:53:55.513+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:55.513+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:53:55.527+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:53:55.527+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:53:55.541+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:54:41.820+0000] {processor.py:157} INFO - Started process (PID=124264) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:54:41.821+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:54:41.821+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:41.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:54:41.837+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:54:41.860+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:41.860+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:54:41.873+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:54:41.873+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:54:41.888+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:55:26.743+0000] {processor.py:157} INFO - Started process (PID=124576) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:55:26.744+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:55:26.745+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:26.745+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:55:26.761+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:55:26.785+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:26.785+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:55:26.799+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:55:26.798+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:55:26.816+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.075 seconds
+[2024-12-12T18:56:01.562+0000] {processor.py:157} INFO - Started process (PID=124820) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:01.563+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:56:01.564+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:01.563+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:01.581+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:01.603+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:01.603+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:56:01.617+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:01.617+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:56:01.632+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:56:35.707+0000] {processor.py:157} INFO - Started process (PID=125140) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:35.708+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:56:35.709+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:35.709+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:35.724+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:56:35.748+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:35.748+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:56:35.761+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:56:35.760+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:56:35.774+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:57:20.400+0000] {processor.py:157} INFO - Started process (PID=125520) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:20.401+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:57:20.401+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:20.401+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:20.418+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:20.443+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:20.443+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:57:20.456+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:20.456+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:57:20.470+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T18:57:56.994+0000] {processor.py:157} INFO - Started process (PID=125820) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:56.995+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:57:56.996+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:56.995+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:57.011+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:57:57.034+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:57.034+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:57:57.047+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:57:57.047+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:57:57.062+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2024-12-12T18:58:34.706+0000] {processor.py:157} INFO - Started process (PID=126082) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:58:34.706+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:58:34.707+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:34.707+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:58:34.723+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:58:34.746+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:34.746+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:58:34.758+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:58:34.758+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:58:34.772+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T18:59:23.069+0000] {processor.py:157} INFO - Started process (PID=126438) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:23.070+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:59:23.071+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:23.071+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:23.086+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:23.108+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:23.108+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:59:23.122+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:23.121+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:59:23.135+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2024-12-12T18:59:58.031+0000] {processor.py:157} INFO - Started process (PID=126676) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:58.032+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T18:59:58.033+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:58.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:58.049+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T18:59:58.071+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:58.071+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T18:59:58.084+0000] {logging_mixin.py:150} INFO - [2024-12-12T18:59:58.084+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T18:59:58.098+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T19:00:47.520+0000] {processor.py:157} INFO - Started process (PID=127105) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:00:47.521+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T19:00:47.522+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:47.521+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:00:47.538+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:00:47.561+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:47.561+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:00:47.575+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:00:47.575+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T19:00:47.590+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2024-12-12T19:01:31.509+0000] {processor.py:157} INFO - Started process (PID=127445) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:01:31.510+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T19:01:31.511+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:31.510+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:01:31.527+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:01:31.549+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:31.549+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:01:31.562+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:01:31.562+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T19:01:31.576+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2024-12-12T19:02:05.201+0000] {processor.py:157} INFO - Started process (PID=127689) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:05.202+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T19:02:05.203+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:05.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:05.220+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:05.243+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:05.243+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:02:05.256+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:05.256+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T19:02:05.347+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.147 seconds
+[2024-12-12T19:02:40.497+0000] {processor.py:157} INFO - Started process (PID=127955) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:40.498+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-12T19:02:40.499+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:40.499+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:40.515+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-12T19:02:40.538+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:40.538+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-12T19:02:40.554+0000] {logging_mixin.py:150} INFO - [2024-12-12T19:02:40.553+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-12T19:02:40.568+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.074 seconds
