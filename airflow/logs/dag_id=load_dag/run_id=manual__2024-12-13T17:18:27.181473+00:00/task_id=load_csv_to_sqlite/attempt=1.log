@@ -1,0 +1,23 @@
+[2024-12-13T17:18:30.131+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_dag.load_csv_to_sqlite manual__2024-12-13T17:18:27.181473+00:00 [queued]>
+[2024-12-13T17:18:30.136+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_dag.load_csv_to_sqlite manual__2024-12-13T17:18:27.181473+00:00 [queued]>
+[2024-12-13T17:18:30.136+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:18:30.145+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): load_csv_to_sqlite> on 2024-12-13 17:18:27.181473+00:00
+[2024-12-13T17:18:30.148+0000] {standard_task_runner.py:57} INFO - Started process 7883 to run task
+[2024-12-13T17:18:30.150+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'load_csv_to_sqlite', 'manual__2024-12-13T17:18:27.181473+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/load_dag.py', '--cfg-path', '/tmp/tmpz0m6txbe']
+[2024-12-13T17:18:30.151+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask load_csv_to_sqlite
+[2024-12-13T17:18:30.173+0000] {task_command.py:410} INFO - Running <TaskInstance: load_dag.load_csv_to_sqlite manual__2024-12-13T17:18:27.181473+00:00 [running]> on host codespaces-586565
+[2024-12-13T17:18:30.204+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_dag' AIRFLOW_CTX_TASK_ID='load_csv_to_sqlite' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:18:27.181473+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:18:27.181473+00:00'
+[2024-12-13T17:18:30.205+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-13T17:18:30.206+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sqlite3 /workspace/airflow-load-db.db                   ".mode csv"                   ".import airflow-transform-data.csv top_level_domains"']
+[2024-12-13T17:18:30.211+0000] {subprocess.py:86} INFO - Output:
+[2024-12-13T17:18:30.218+0000] {subprocess.py:93} INFO - Error: unable to open database "/workspace/airflow-load-db.db": unable to open database file
+[2024-12-13T17:18:30.218+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-12-13T17:18:30.223+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-13T17:18:30.225+0000] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=load_dag, task_id=load_csv_to_sqlite, execution_date=20241213T171827, start_date=20241213T171830, end_date=20241213T171830
+[2024-12-13T17:18:30.232+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task load_csv_to_sqlite (Bash command failed. The command returned a non-zero exit code 1.; 7883)
+[2024-12-13T17:18:30.242+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T17:18:30.250+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

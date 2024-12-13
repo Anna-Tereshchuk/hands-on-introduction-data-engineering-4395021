@@ -880,3 +880,255 @@
 [2024-12-13T13:53:24.585+0000] {logging_mixin.py:150} INFO - [2024-12-13T13:53:24.585+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T13:53:24.598+0000] {logging_mixin.py:150} INFO - [2024-12-13T13:53:24.598+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T13:53:24.598545+00:00, run_after=2024-12-13T13:53:24.598545+00:00
 [2024-12-13T13:53:24.616+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-12-13T17:17:11.088+0000] {processor.py:157} INFO - Started process (PID=6925) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:17:11.089+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:17:11.089+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:17:11.089+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:17:11.094+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:17:11.185+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:17:11.185+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:17:11.197+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:17:11.197+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:17:11.197232+00:00, run_after=2024-12-13T17:17:11.197232+00:00
+[2024-12-13T17:17:11.210+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.124 seconds
+[2024-12-13T17:18:00.689+0000] {processor.py:157} INFO - Started process (PID=7495) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:00.690+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:18:00.691+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:00.691+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:00.699+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:00.715+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:00.714+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:18:00.728+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:00.728+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:18:00.728369+00:00, run_after=2024-12-13T17:18:00.728369+00:00
+[2024-12-13T17:18:00.746+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-12-13T17:18:53.143+0000] {processor.py:157} INFO - Started process (PID=8122) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:53.143+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:18:53.144+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:53.144+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:53.149+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:18:53.161+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:53.161+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:18:53.174+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:18:53.173+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:18:53.173789+00:00, run_after=2024-12-13T17:18:53.173789+00:00
+[2024-12-13T17:18:53.187+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:19:53.751+0000] {processor.py:157} INFO - Started process (PID=8899) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:19:53.751+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:19:53.752+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:19:53.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:19:53.758+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:19:53.769+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:19:53.769+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:19:53.782+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:19:53.782+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:19:53.782479+00:00, run_after=2024-12-13T17:19:53.782479+00:00
+[2024-12-13T17:19:53.796+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:20:38.300+0000] {processor.py:157} INFO - Started process (PID=9260) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:20:38.301+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:20:38.301+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:20:38.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:20:38.307+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:20:38.318+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:20:38.318+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:20:38.330+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:20:38.330+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:20:38.330477+00:00, run_after=2024-12-13T17:20:38.330477+00:00
+[2024-12-13T17:20:38.344+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:21:36.745+0000] {processor.py:157} INFO - Started process (PID=9808) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:21:36.745+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:21:36.746+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:21:36.746+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:21:36.751+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:21:36.763+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:21:36.763+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:21:36.776+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:21:36.776+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:21:36.775912+00:00, run_after=2024-12-13T17:21:36.775912+00:00
+[2024-12-13T17:21:36.791+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2024-12-13T17:22:19.192+0000] {processor.py:157} INFO - Started process (PID=10192) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:22:19.192+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:22:19.193+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:22:19.193+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:22:19.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:22:19.209+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:22:19.209+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:22:19.222+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:22:19.222+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:22:19.222380+00:00, run_after=2024-12-13T17:22:19.222380+00:00
+[2024-12-13T17:22:19.236+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:23:16.837+0000] {processor.py:157} INFO - Started process (PID=10615) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:16.838+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:23:16.839+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:16.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:16.844+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:16.855+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:16.855+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:23:16.868+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:16.868+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:23:16.868337+00:00, run_after=2024-12-13T17:23:16.868337+00:00
+[2024-12-13T17:23:16.882+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:23:59.785+0000] {processor.py:157} INFO - Started process (PID=10995) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:59.786+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:23:59.787+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:59.786+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:59.794+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:23:59.806+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:59.806+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:23:59.819+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:23:59.819+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:23:59.818865+00:00, run_after=2024-12-13T17:23:59.818865+00:00
+[2024-12-13T17:23:59.832+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-12-13T17:24:42.459+0000] {processor.py:157} INFO - Started process (PID=11329) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:24:42.459+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:24:42.460+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:24:42.460+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:24:42.465+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:24:42.476+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:24:42.476+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:24:42.489+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:24:42.489+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:24:42.489258+00:00, run_after=2024-12-13T17:24:42.489258+00:00
+[2024-12-13T17:24:42.503+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:25:40.960+0000] {processor.py:157} INFO - Started process (PID=11781) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:25:40.970+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:25:40.971+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:25:40.971+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:25:40.982+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:25:40.994+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:25:40.994+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:25:41.006+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:25:41.006+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:25:41.006675+00:00, run_after=2024-12-13T17:25:41.006675+00:00
+[2024-12-13T17:25:41.020+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2024-12-13T17:26:41.573+0000] {processor.py:157} INFO - Started process (PID=12248) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:26:41.574+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:26:41.574+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:26:41.574+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:26:41.580+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:26:41.591+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:26:41.591+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:26:41.604+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:26:41.604+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:26:41.604236+00:00, run_after=2024-12-13T17:26:41.604236+00:00
+[2024-12-13T17:26:41.618+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:27:43.956+0000] {processor.py:157} INFO - Started process (PID=12910) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:27:43.957+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:27:43.958+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:27:43.958+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:27:43.963+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:27:43.975+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:27:43.975+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:27:43.988+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:27:43.987+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:27:43.987777+00:00, run_after=2024-12-13T17:27:43.987777+00:00
+[2024-12-13T17:27:44.001+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:28:25.861+0000] {processor.py:157} INFO - Started process (PID=13210) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:28:25.862+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:28:25.863+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:28:25.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:28:25.868+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:28:25.880+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:28:25.880+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:28:25.893+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:28:25.893+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:28:25.892867+00:00, run_after=2024-12-13T17:28:25.892867+00:00
+[2024-12-13T17:28:25.907+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:29:24.068+0000] {processor.py:157} INFO - Started process (PID=13777) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:29:24.068+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:29:24.069+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:29:24.069+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:29:24.074+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:29:24.086+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:29:24.086+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:29:24.099+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:29:24.099+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:29:24.098844+00:00, run_after=2024-12-13T17:29:24.098844+00:00
+[2024-12-13T17:29:24.112+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:30:21.485+0000] {processor.py:157} INFO - Started process (PID=14257) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:30:21.485+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:30:21.486+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:30:21.486+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:30:21.491+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:30:21.503+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:30:21.502+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:30:21.515+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:30:21.515+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:30:21.515359+00:00, run_after=2024-12-13T17:30:21.515359+00:00
+[2024-12-13T17:30:21.530+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:31:05.330+0000] {processor.py:157} INFO - Started process (PID=14555) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:05.330+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:31:05.331+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:05.331+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:05.336+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:05.348+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:05.348+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:31:05.361+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:05.361+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:31:05.360983+00:00, run_after=2024-12-13T17:31:05.360983+00:00
+[2024-12-13T17:31:05.374+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:31:47.031+0000] {processor.py:157} INFO - Started process (PID=14937) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:47.032+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:31:47.032+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:47.032+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:47.038+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:31:47.049+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:47.049+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:31:47.062+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:31:47.062+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:31:47.061984+00:00, run_after=2024-12-13T17:31:47.061984+00:00
+[2024-12-13T17:31:47.075+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:32:45.762+0000] {processor.py:157} INFO - Started process (PID=15410) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:32:45.763+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:32:45.763+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:32:45.763+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:32:45.769+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:32:45.780+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:32:45.780+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:32:45.793+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:32:45.793+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:32:45.793161+00:00, run_after=2024-12-13T17:32:45.793161+00:00
+[2024-12-13T17:32:45.806+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:33:47.801+0000] {processor.py:157} INFO - Started process (PID=15911) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:33:47.802+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:33:47.802+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:33:47.802+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:33:47.808+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:33:47.819+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:33:47.819+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:33:47.832+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:33:47.832+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:33:47.832176+00:00, run_after=2024-12-13T17:33:47.832176+00:00
+[2024-12-13T17:33:47.845+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:34:29.464+0000] {processor.py:157} INFO - Started process (PID=16215) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:34:29.465+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:34:29.466+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:34:29.465+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:34:29.471+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:34:29.482+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:34:29.482+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:34:29.495+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:34:29.495+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:34:29.495016+00:00, run_after=2024-12-13T17:34:29.495016+00:00
+[2024-12-13T17:34:29.509+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:35:30.152+0000] {processor.py:157} INFO - Started process (PID=16696) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:35:30.153+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:35:30.153+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:35:30.153+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:35:30.159+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:35:30.170+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:35:30.170+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:35:30.183+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:35:30.183+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:35:30.183341+00:00, run_after=2024-12-13T17:35:30.183341+00:00
+[2024-12-13T17:35:30.197+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:36:31.963+0000] {processor.py:157} INFO - Started process (PID=17132) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:36:31.963+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:36:31.964+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:36:31.964+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:36:31.970+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:36:31.982+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:36:31.982+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:36:31.995+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:36:31.995+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:36:31.995534+00:00, run_after=2024-12-13T17:36:31.995534+00:00
+[2024-12-13T17:36:32.010+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-12-13T17:37:32.141+0000] {processor.py:157} INFO - Started process (PID=17585) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:37:32.142+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:37:32.142+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:37:32.142+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:37:32.148+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:37:32.159+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:37:32.159+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:37:32.173+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:37:32.173+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:37:32.173055+00:00, run_after=2024-12-13T17:37:32.173055+00:00
+[2024-12-13T17:37:32.187+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2024-12-13T17:38:31.483+0000] {processor.py:157} INFO - Started process (PID=18017) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:38:31.484+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:38:31.484+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:38:31.484+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:38:31.490+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:38:31.501+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:38:31.501+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:38:31.514+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:38:31.514+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:38:31.513907+00:00, run_after=2024-12-13T17:38:31.513907+00:00
+[2024-12-13T17:38:31.528+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:39:26.133+0000] {processor.py:157} INFO - Started process (PID=18399) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:39:26.134+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:39:26.135+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:39:26.134+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:39:26.140+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:39:26.152+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:39:26.152+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:39:26.165+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:39:26.164+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:39:26.164753+00:00, run_after=2024-12-13T17:39:26.164753+00:00
+[2024-12-13T17:39:26.178+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:40:10.228+0000] {processor.py:157} INFO - Started process (PID=18718) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:40:10.229+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:40:10.229+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:40:10.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:40:10.235+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:40:10.246+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:40:10.246+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:40:10.258+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:40:10.258+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:40:10.258438+00:00, run_after=2024-12-13T17:40:10.258438+00:00
+[2024-12-13T17:40:10.272+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:41:06.890+0000] {processor.py:157} INFO - Started process (PID=19172) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:41:06.890+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:41:06.891+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:41:06.891+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:41:06.896+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:41:06.907+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:41:06.907+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:41:06.920+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:41:06.920+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:41:06.920216+00:00, run_after=2024-12-13T17:41:06.920216+00:00
+[2024-12-13T17:41:06.933+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:42:08.437+0000] {processor.py:157} INFO - Started process (PID=19696) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:42:08.437+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:42:08.438+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:42:08.438+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:42:08.443+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:42:08.455+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:42:08.455+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:42:08.467+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:42:08.467+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:42:08.467671+00:00, run_after=2024-12-13T17:42:08.467671+00:00
+[2024-12-13T17:42:08.481+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:43:07.652+0000] {processor.py:157} INFO - Started process (PID=20159) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:43:07.653+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:43:07.654+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:43:07.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:43:07.659+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:43:07.670+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:43:07.670+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:43:07.683+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:43:07.683+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:43:07.683297+00:00, run_after=2024-12-13T17:43:07.683297+00:00
+[2024-12-13T17:43:07.697+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:44:06.457+0000] {processor.py:157} INFO - Started process (PID=20737) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:44:06.457+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:44:06.458+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:44:06.458+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:44:06.463+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:44:06.475+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:44:06.474+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:44:06.487+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:44:06.487+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:44:06.487303+00:00, run_after=2024-12-13T17:44:06.487303+00:00
+[2024-12-13T17:44:06.501+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-12-13T17:46:07.335+0000] {processor.py:157} INFO - Started process (PID=22076) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:07.335+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:46:07.336+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:07.336+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:07.343+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:07.432+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:07.432+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:46:07.443+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:07.443+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:46:07.443418+00:00, run_after=2024-12-13T17:46:07.443418+00:00
+[2024-12-13T17:46:07.461+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2024-12-13T17:46:56.708+0000] {processor.py:157} INFO - Started process (PID=22465) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:56.708+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:46:56.709+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:56.709+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:56.715+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:46:56.727+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:56.727+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:46:56.740+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:46:56.740+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:46:56.740201+00:00, run_after=2024-12-13T17:46:56.740201+00:00
+[2024-12-13T17:46:56.754+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-12-13T17:47:46.435+0000] {processor.py:157} INFO - Started process (PID=22843) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:47:46.436+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:47:46.437+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:47:46.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:47:46.443+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:47:46.454+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:47:46.454+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:47:46.467+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:47:46.467+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:47:46.467279+00:00, run_after=2024-12-13T17:47:46.467279+00:00
+[2024-12-13T17:47:46.480+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-12-13T17:48:42.692+0000] {processor.py:157} INFO - Started process (PID=23283) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:48:42.693+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:48:42.693+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:48:42.693+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:48:42.699+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:48:42.710+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:48:42.709+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:48:42.723+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:48:42.723+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:48:42.723454+00:00, run_after=2024-12-13T17:48:42.723454+00:00
+[2024-12-13T17:48:42.739+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-12-13T17:49:39.527+0000] {processor.py:157} INFO - Started process (PID=23785) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:49:39.527+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-13T17:49:39.528+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:49:39.527+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:49:39.533+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-13T17:49:39.544+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:49:39.544+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T17:49:39.557+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:49:39.557+0000] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2024-12-12T17:49:39.557630+00:00, run_after=2024-12-13T17:49:39.557630+00:00
+[2024-12-13T17:49:39.571+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
