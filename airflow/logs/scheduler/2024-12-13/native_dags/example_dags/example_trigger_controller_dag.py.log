@@ -1174,3 +1174,17 @@
 [2024-12-13T17:58:15.920+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:58:15.919+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T17:58:15.932+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:58:15.932+0000] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2024-12-13T17:58:15.946+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.045 seconds
+[2024-12-13T18:03:11.640+0000] {processor.py:157} INFO - Started process (PID=30389) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:03:11.641+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2024-12-13T18:03:11.642+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:03:11.641+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:03:11.644+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:03:11.708+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:03:11.708+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:03:11.719+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:03:11.719+0000] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-12-13T18:03:11.733+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.095 seconds
+[2024-12-13T18:04:11.998+0000] {processor.py:157} INFO - Started process (PID=30933) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:04:11.999+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2024-12-13T18:04:12.000+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:04:11.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:04:12.002+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-12-13T18:04:12.013+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:04:12.013+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:04:12.026+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:04:12.026+0000] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-12-13T18:04:12.040+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.044 seconds
