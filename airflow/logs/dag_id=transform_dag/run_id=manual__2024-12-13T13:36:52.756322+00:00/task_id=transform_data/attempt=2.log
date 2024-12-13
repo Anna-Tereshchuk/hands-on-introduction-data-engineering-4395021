@@ -1,0 +1,32 @@
+[2024-12-13T13:41:57.205+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_dag.transform_data manual__2024-12-13T13:36:52.756322+00:00 [queued]>
+[2024-12-13T13:41:57.210+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_dag.transform_data manual__2024-12-13T13:36:52.756322+00:00 [queued]>
+[2024-12-13T13:41:57.210+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-12-13T13:41:57.219+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_data> on 2024-12-13 13:36:52.756322+00:00
+[2024-12-13T13:41:57.222+0000] {standard_task_runner.py:57} INFO - Started process 46736 to run task
+[2024-12-13T13:41:57.224+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_data', 'manual__2024-12-13T13:36:52.756322+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/transform_dag.py', '--cfg-path', '/tmp/tmp9la70027']
+[2024-12-13T13:41:57.225+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask transform_data
+[2024-12-13T13:41:57.251+0000] {task_command.py:410} INFO - Running <TaskInstance: transform_dag.transform_data manual__2024-12-13T13:36:52.756322+00:00 [running]> on host codespaces-586565
+[2024-12-13T13:41:57.302+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='transform_dag' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T13:36:52.756322+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T13:36:52.756322+00:00'
+[2024-12-13T13:41:57.304+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/transform_dag.py", line 9, in transform_data
+    df = pd.read_csv("/path/to/extracted/data.csv")
+  File "/home/vscode/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/vscode/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/vscode/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/vscode/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/vscode/.local/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/extracted/data.csv'
+[2024-12-13T13:41:57.307+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=transform_dag, task_id=transform_data, execution_date=20241213T133652, start_date=20241213T134157, end_date=20241213T134157
+[2024-12-13T13:41:57.315+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 24 for task transform_data ([Errno 2] No such file or directory: '/path/to/extracted/data.csv'; 46736)
+[2024-12-13T13:41:57.358+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T13:41:57.366+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
