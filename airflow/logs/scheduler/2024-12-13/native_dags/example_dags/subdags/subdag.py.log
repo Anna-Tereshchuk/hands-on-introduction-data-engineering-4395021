@@ -823,6 +823,7 @@
 [2024-12-13T17:57:30.634+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:57:30.633+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-13T17:57:30.635+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-13T17:57:30.642+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+<<<<<<< Updated upstream
 [2024-12-13T18:02:25.996+0000] {processor.py:157} INFO - Started process (PID=30012) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-13T18:02:25.996+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
 [2024-12-13T18:02:25.997+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:25.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
@@ -1018,3 +1019,10 @@
 [2024-12-13T18:39:58.035+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:39:58.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-13T18:39:58.036+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-13T18:39:58.043+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+=======
+[2024-12-13T18:01:25.571+0000] {processor.py:157} INFO - Started process (PID=29460) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-13T18:01:25.571+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-12-13T18:01:25.572+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:25.572+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-13T18:01:25.574+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-13T18:01:25.582+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+>>>>>>> Stashed changes

@@ -1699,6 +1699,7 @@
 [2024-12-13T17:57:39.382+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:57:39.382+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T17:57:39.394+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:57:39.394+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-12-12T17:57:39.394363+00:00, run_after=2024-12-13T17:57:39.394363+00:00
 [2024-12-13T17:57:39.407+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.047 seconds
+<<<<<<< Updated upstream
 [2024-12-13T18:02:56.032+0000] {processor.py:157} INFO - Started process (PID=30278) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
 [2024-12-13T18:02:56.033+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
 [2024-12-13T18:02:56.033+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:56.033+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
@@ -2105,3 +2106,26 @@
 [2024-12-13T18:40:40.062+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:40:40.062+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T18:40:40.075+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:40:40.075+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-12-12T18:40:40.075039+00:00, run_after=2024-12-13T18:40:40.075039+00:00
 [2024-12-13T18:40:40.088+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.049 seconds
+=======
+[2024-12-13T18:00:57.001+0000] {processor.py:157} INFO - Started process (PID=29181) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:00:57.002+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-12-13T18:00:57.003+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:00:57.002+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:00:57.009+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:00:57.021+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:00:57.021+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:00:57.034+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:00:57.034+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-12-12T18:00:57.034057+00:00, run_after=2024-12-13T18:00:57.034057+00:00
+[2024-12-13T18:00:57.050+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.051 seconds
+[2024-12-13T18:01:35.843+0000] {processor.py:157} INFO - Started process (PID=29537) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:01:35.843+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-12-13T18:01:35.844+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:35.844+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:01:35.850+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:01:35.863+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:35.862+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:01:35.876+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:35.875+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-12-12T18:01:35.875757+00:00, run_after=2024-12-13T18:01:35.875757+00:00
+[2024-12-13T18:01:35.889+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.048 seconds
+[2024-12-13T18:02:15.864+0000] {processor.py:157} INFO - Started process (PID=29878) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:02:15.865+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-12-13T18:02:15.866+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:15.865+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:02:15.872+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-12-13T18:02:15.884+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:15.884+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:02:15.896+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:15.896+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-12-12T18:02:15.896294+00:00, run_after=2024-12-13T18:02:15.896294+00:00
+[2024-12-13T18:02:15.909+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.047 seconds
+>>>>>>> Stashed changes

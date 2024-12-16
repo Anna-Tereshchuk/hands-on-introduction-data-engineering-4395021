@@ -1244,6 +1244,7 @@
 [2024-12-13T17:58:11.388+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:58:11.388+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T17:58:11.401+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:58:11.401+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-12-12T17:58:11.401273+00:00, run_after=2024-12-13T17:58:11.401273+00:00
 [2024-12-13T17:58:11.415+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.048 seconds
+<<<<<<< Updated upstream
 [2024-12-13T18:02:23.736+0000] {processor.py:157} INFO - Started process (PID=29983) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
 [2024-12-13T18:02:23.736+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
 [2024-12-13T18:02:23.737+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:23.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
@@ -1573,3 +1574,12 @@
 [2024-12-13T18:39:52.882+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:39:52.882+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2024-12-13T18:39:52.895+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:39:52.895+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-12-12T18:39:52.895011+00:00, run_after=2024-12-13T18:39:52.895011+00:00
 [2024-12-13T18:39:52.909+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.047 seconds
+=======
+[2024-12-13T18:01:25.117+0000] {processor.py:157} INFO - Started process (PID=29455) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-13T18:01:25.117+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-13T18:01:25.118+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:25.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-13T18:01:25.123+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-13T18:01:25.136+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:25.136+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-12-13T18:01:25.149+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:25.149+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-12-12T18:01:25.149539+00:00, run_after=2024-12-13T18:01:25.149539+00:00
+[2024-12-13T18:01:25.169+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.054 seconds
+>>>>>>> Stashed changes

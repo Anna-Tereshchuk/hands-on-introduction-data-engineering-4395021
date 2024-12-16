@@ -1042,6 +1042,7 @@
 [2024-12-13T17:57:30.321+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:57:30.321+0000] {example_kubernetes_executor.py:41} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
 [2024-12-13T17:57:30.321+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
 [2024-12-13T17:57:30.328+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.012 seconds
+<<<<<<< Updated upstream
 [2024-12-13T18:02:45.460+0000] {processor.py:157} INFO - Started process (PID=30155) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
 [2024-12-13T18:02:45.460+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
 [2024-12-13T18:02:45.461+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:45.461+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
@@ -1306,3 +1307,11 @@
 [2024-12-13T18:40:29.233+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:40:29.233+0000] {example_kubernetes_executor.py:41} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
 [2024-12-13T18:40:29.233+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
 [2024-12-13T18:40:29.240+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.012 seconds
+=======
+[2024-12-13T18:01:45.371+0000] {processor.py:157} INFO - Started process (PID=29608) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-12-13T18:01:45.372+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-12-13T18:01:45.372+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:45.372+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-12-13T18:01:45.375+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:45.375+0000] {example_kubernetes_executor.py:41} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-13T18:01:45.375+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-12-13T18:01:45.381+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.012 seconds
+>>>>>>> Stashed changes

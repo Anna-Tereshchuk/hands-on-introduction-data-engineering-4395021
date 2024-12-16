@@ -968,6 +968,7 @@
 [2024-12-13T17:58:07.411+0000] {logging_mixin.py:150} INFO - [2024-12-13T17:58:07.411+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-12-13T17:58:07.413+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-12-13T17:58:07.419+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.012 seconds
+<<<<<<< Updated upstream
 [2024-12-13T18:02:42.869+0000] {processor.py:157} INFO - Started process (PID=30143) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-12-13T18:02:42.870+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
 [2024-12-13T18:02:42.870+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:42.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
@@ -1223,3 +1224,15 @@
 [2024-12-13T18:40:08.689+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:40:08.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-12-13T18:40:08.690+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-12-13T18:40:08.697+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.012 seconds
+=======
+[2024-12-13T18:01:05.008+0000] {processor.py:157} INFO - Started process (PID=29260) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:01:05.009+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-12-13T18:01:05.010+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:01:05.009+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:01:05.011+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:01:05.017+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.011 seconds
+[2024-12-13T18:02:02.339+0000] {processor.py:157} INFO - Started process (PID=29784) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:02:02.340+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-12-13T18:02:02.340+0000] {logging_mixin.py:150} INFO - [2024-12-13T18:02:02.340+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:02:02.342+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-12-13T18:02:02.349+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.011 seconds
+>>>>>>> Stashed changes
