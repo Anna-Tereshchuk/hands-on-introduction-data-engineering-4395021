@@ -1,0 +1,28 @@
+[2024-12-16T16:54:36.248+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: challenge_dag.extract_task manual__2024-12-16T16:54:33.092720+00:00 [queued]>
+[2024-12-16T16:54:36.253+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: challenge_dag.extract_task manual__2024-12-16T16:54:33.092720+00:00 [queued]>
+[2024-12-16T16:54:36.253+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-16T16:54:36.262+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): extract_task> on 2024-12-16 16:54:33.092720+00:00
+[2024-12-16T16:54:36.266+0000] {standard_task_runner.py:57} INFO - Started process 96380 to run task
+[2024-12-16T16:54:36.270+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-12-16T16:54:33.092720+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/challenge_dag.py', '--cfg-path', '/tmp/tmpp1lf9cnx']
+[2024-12-16T16:54:36.271+0000] {standard_task_runner.py:85} INFO - Job 68: Subtask extract_task
+[2024-12-16T16:54:36.301+0000] {task_command.py:410} INFO - Running <TaskInstance: challenge_dag.extract_task manual__2024-12-16T16:54:33.092720+00:00 [running]> on host codespaces-586565
+[2024-12-16T16:54:36.349+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='challenge_dag' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-16T16:54:33.092720+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-16T16:54:33.092720+00:00'
+[2024-12-16T16:54:36.350+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-16T16:54:36.350+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -o /lab/challenges/challenge-extract-dag.csv https://raw.githubusercontent.com/LinkedInLearning/hands-on-introduction-data-engineering-4395021/main/data/constituents.csv']
+[2024-12-16T16:54:36.359+0000] {subprocess.py:86} INFO - Output:
+[2024-12-16T16:54:36.368+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-12-16T16:54:36.368+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-12-16T16:54:36.429+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to open the file /lab/challenges/challenge-extract-dag.csv: No
+[2024-12-16T16:54:36.430+0000] {subprocess.py:93} INFO - Warning: such file or directory
+[2024-12-16T16:54:36.430+0000] {subprocess.py:93} INFO -   7 18676    7  1369    0     0  21862      0 --:--:-- --:--:-- --:--:-- 22080
+[2024-12-16T16:54:36.431+0000] {subprocess.py:93} INFO - curl: (23) Failure writing output to destination
+[2024-12-16T16:54:36.433+0000] {subprocess.py:97} INFO - Command exited with return code 23
+[2024-12-16T16:54:36.440+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 23.
+[2024-12-16T16:54:36.443+0000] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=challenge_dag, task_id=extract_task, execution_date=20241216T165433, start_date=20241216T165436, end_date=20241216T165436
+[2024-12-16T16:54:36.455+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 68 for task extract_task (Bash command failed. The command returned a non-zero exit code 23.; 96380)
+[2024-12-16T16:54:36.482+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-16T16:54:36.493+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

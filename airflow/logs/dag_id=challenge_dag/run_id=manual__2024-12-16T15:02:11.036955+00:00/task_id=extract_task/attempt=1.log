@@ -1,0 +1,23 @@
+[2024-12-16T15:02:13.820+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: challenge_dag.extract_task manual__2024-12-16T15:02:11.036955+00:00 [queued]>
+[2024-12-16T15:02:13.823+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: challenge_dag.extract_task manual__2024-12-16T15:02:11.036955+00:00 [queued]>
+[2024-12-16T15:02:13.824+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-16T15:02:13.833+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): extract_task> on 2024-12-16 15:02:11.036955+00:00
+[2024-12-16T15:02:13.836+0000] {standard_task_runner.py:57} INFO - Started process 38694 to run task
+[2024-12-16T15:02:13.838+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2024-12-16T15:02:11.036955+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/challenge_dag.py', '--cfg-path', '/tmp/tmpjksa4az_']
+[2024-12-16T15:02:13.839+0000] {standard_task_runner.py:85} INFO - Job 59: Subtask extract_task
+[2024-12-16T15:02:13.861+0000] {task_command.py:410} INFO - Running <TaskInstance: challenge_dag.extract_task manual__2024-12-16T15:02:11.036955+00:00 [running]> on host codespaces-586565
+[2024-12-16T15:02:13.895+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='challenge_dag' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-16T15:02:11.036955+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-16T15:02:11.036955+00:00'
+[2024-12-16T15:02:13.896+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-16T15:02:13.897+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget --no-verbose --tries=3 --timeout=30 -O /lab/challenges/challenge-extract-dag.csv https://lnkd.in/gfZTxikg']
+[2024-12-16T15:02:13.902+0000] {subprocess.py:86} INFO - Output:
+[2024-12-16T15:02:13.905+0000] {subprocess.py:93} INFO - /lab/challenges/challenge-extract-dag.csv: No such file or directory
+[2024-12-16T15:02:13.906+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-12-16T15:02:13.910+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-16T15:02:13.911+0000] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=challenge_dag, task_id=extract_task, execution_date=20241216T150211, start_date=20241216T150213, end_date=20241216T150213
+[2024-12-16T15:02:13.920+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 59 for task extract_task (Bash command failed. The command returned a non-zero exit code 1.; 38694)
+[2024-12-16T15:02:13.930+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-16T15:02:13.941+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
